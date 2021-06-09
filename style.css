@@ -8,6 +8,13 @@ body{
     flex-direction: column;
     margin:auto;
 }
+nav{
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+    margin-bottom: 40px;
+    
+}
 #logo {
     margin: 0;
 }
@@ -19,11 +26,6 @@ body{
     margin: 0;
     margin-left: auto;
 }
-nav{
-    display: flex;
-    align-items: center;
-    padding: var(--spacing-3) 0;
-}
 .navigation-item{
     margin: 15px;
 }
@@ -31,17 +33,26 @@ li{
     display: list-item;
     text-align: -webkit-match-parent;
 }
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
 section{
     display: block;
     padding: var(--spacing-3) 0;
 }
-.bout-me-text-container{
-    margin: 16px;
+#about-me{
+    
+}
+.about-me-text-container{
+    margin-right:  auto;
 }
 .portrait{
     width: 300px;
     flex-shrink: 0;
-    border-radius: var(--border-radious);
+    border-radius: 5%;
+    margin-left: 30px;
 }
 .about-me-container{
     display: flex;
