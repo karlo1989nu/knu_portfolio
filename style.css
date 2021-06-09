@@ -2,16 +2,47 @@ body{
     font-family:'Times New Roman', Times, serif;
     margin: 0%;
     padding:0%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin:auto;
+}
+#logo {
+    margin: 0;
+}
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
 }
 nav{
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: var(--spacing-3) 0;
+}
+.navigation-item{
+    margin: 15px;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 section{
     display: block;
+    padding: var(--spacing-3) 0;
+}
+.bout-me-text-container{
+    margin: 16px;
+}
+.portrait{
+    width: 300px;
+    flex-shrink: 0;
+    border-radius: var(--border-radious);
+}
+.about-me-container{
+    display: flex;
 }
