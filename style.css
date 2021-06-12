@@ -42,9 +42,7 @@ section{
     display: block;
     padding: var(--spacing-3) 0;
 }
-#about-me{
-    
-}
+
 .about-me-text-container{
     margin-right:  auto;
 }
