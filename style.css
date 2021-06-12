@@ -7,6 +7,8 @@ body{
     display: flex;
     flex-direction: column;
     margin:auto;
+    background-color: #635C5E;
+    color: #E3D3D6;
 }
 nav{
     display: flex;
@@ -31,12 +33,15 @@ nav{
 }
 li{
     display: list-item;
-    text-align: -webkit-match-parent;
+    text-align: center;
 }
 a{
     text-decoration: none;
-    color: black;
     font-weight: 600;
+}
+a:-webkit-any-link {
+    color: #B0A4A6;
+    cursor: pointer;
 }
 section{
     display: block;
