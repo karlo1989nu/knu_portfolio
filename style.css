@@ -21,6 +21,9 @@ nav{
 #logo {
     margin: 0;
 }
+#navigation{
+    margin-left: auto;
+}
 .navigation-items {
     display: flex;
     list-style-type: none;
@@ -84,7 +87,7 @@ div{
         flex-direction: column;
         margin-left: 10px;
     }
-    nav{
-        -ms-flex-direction: column;
+    #navigation{
+        flex-direction: column;
     }
 }
