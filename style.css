@@ -60,7 +60,6 @@ section{
 }
 .about-me-text-container{
     margin-right:  auto;
-
 }
 div{
     display: block;
@@ -89,5 +88,10 @@ div{
     }
     #navigation{
         flex-direction: column;
+    }
+    .about-me-text-container{
+        text-align: center;
+        width: auto;
+        height: auto;
     }
 }
