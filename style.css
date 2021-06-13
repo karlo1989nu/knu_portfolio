@@ -86,7 +86,7 @@ div{
         flex-direction: column;
         width: 100%;
         height: auto;
-        margin: auto;
+        margin: auto 0;
         text-align:justify;
     }
     #navigation{
