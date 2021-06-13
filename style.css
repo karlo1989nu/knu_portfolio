@@ -4,10 +4,9 @@
 body{
     font-family:'Times New Roman', Times, serif;
     max-width: 1000px;
-    margin: auto;
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
-    margin:auto;
     background-color: #635C5E;
     color: #E3D3D6;
     
@@ -85,7 +84,6 @@ div{
     body{
         align-items: center;
         text-align: center;
-        margin-top: 0% 20px;
     }
     .about-me-container {
         flex-direction: column;
