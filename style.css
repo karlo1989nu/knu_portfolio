@@ -85,6 +85,7 @@ div{
     body{
         align-items: center;
         text-align: center;
+        margin-top: 0% 20px;
     }
     .about-me-container {
         flex-direction: column;
