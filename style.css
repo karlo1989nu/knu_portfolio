@@ -9,12 +9,12 @@ body{
     flex-direction: column;
     background-color: #635C5E;
     color: #E3D3D6;
-    
+    font-weight: bold;
 }
 nav{
     display: flex;
     align-items: center;
-    /*padding: var(--spacing-3) 0;*/
+    padding: var(--spacing-3) 0;
     margin-bottom: 40px; 
 }
 #logo {
@@ -29,8 +29,7 @@ nav{
     list-style-type: none;
     padding: 0;
     align-items: center;
-    margin: 0;
-    margin-left: auto;
+    margin: auto;
 }
 .navigation-item{
     margin: 15px;
@@ -55,6 +54,7 @@ section{
 }
 .about-me-container{
     display: flex; 
+    margin: 0 auto;
     width: 100%;
     height: auto;
 }
@@ -81,12 +81,11 @@ div{
     margin-bottom: 10px;
     text-align: center;
 }
-@media only screen and (max-width: 860px) and (orientation: portrait){
+@media only screen and (max-width: 860px) {
     body{
         width: auto;
         align-items: center;
         text-align: center;
-        margin: 0 20px;
     }
     .about-me-container {
         flex-direction: column;
@@ -109,12 +108,11 @@ div{
         margin-top: 10px;
     }
 }
-@media only screen and (max-width: 400px) and (orientation: portrait){
+@media only screen and (max-width: 400px){
     body{
         width: auto;
         align-items: center;
         text-align: center;
-        margin: 0 20px;
     }
     .about-me-container {
         flex-direction: column;
