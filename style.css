@@ -86,6 +86,7 @@ div{
         width: auto;
         align-items: center;
         text-align: center;
+        margin: 0 10px;
     }
     .about-me-container {
         flex-direction: column;
