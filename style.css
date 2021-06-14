@@ -107,3 +107,30 @@ div{
         margin-top: 10px;
     }
 }
+@media only screen and (max-width: 479px) {
+    body{
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: auto 0;
+        text-align: center;
+    }
+    #navigation{
+        flex-direction: column;
+    }
+    .portrait{
+        margin: auto;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .navigation-items{
+        margin-top: 10px;
+    }
+}
