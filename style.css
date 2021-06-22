@@ -111,6 +111,10 @@ div{
     .navigation-items{
         margin-top: 10px;
     }
+    #projects img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 @media only screen and (max-width: 480px){
     body{
@@ -138,5 +142,9 @@ div{
     }
     .navigation-items{
         margin-top: 10px;
+    }
+    #projects img {
+        max-width: 100%;
+        height: auto;
     }
 }
