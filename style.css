@@ -121,6 +121,9 @@ div{
     .navigation-items{
         margin-top: 10px;
     }
+    .navigation-item{
+        margin: auto;
+    }
     #projects img {
         max-width: 100%;
         height: auto;
@@ -158,6 +161,9 @@ div{
     }
     .navigation-items{
         margin-top: 10px;
+    }
+    .navigation-item{
+        margin: auto;
     }
     #projects img {
         max-width: 100%;
