@@ -91,12 +91,12 @@ div{
     margin: 30px;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 860px), (orientation: portrait){
     body{
         width: auto;
         align-items: center;
         text-align: center;
-        margin: 0 auto;
+        margin: 0 10px;
         padding: auto;
     }
     .about-me-container {
