@@ -145,6 +145,7 @@ div{
     }
     #navigation{
         flex-direction: column;
+        margin: auto;
     }
     .portrait{
         margin: auto;
