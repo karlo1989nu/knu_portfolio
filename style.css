@@ -47,6 +47,7 @@ a:-webkit-any-link {
     color: #E3D3D6;
     cursor: pointer;
 }
+
 section{
     display: block;
     padding: var(--spacing-3) 0;
@@ -79,10 +80,6 @@ div{
     height: auto;
     margin-bottom: 10px;
     text-align: center;
-}
-.project1 a {
-    border: none;
-    text-decoration: underline;
 }
 
 .contactli {
