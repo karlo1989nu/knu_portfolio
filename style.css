@@ -109,6 +109,7 @@ div{
     }
     #navigation{
         flex-direction: column;
+        width: 100%;
         height: auto;
     }
     .portrait{
@@ -146,6 +147,7 @@ div{
     }
     #navigation{
         flex-direction: column;
+        width: 100%;
         height: auto;
     }
     .portrait{
