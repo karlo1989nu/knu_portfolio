@@ -109,14 +109,14 @@ div{
     }
     #navigation{
         flex-direction: column;
-        width: 100%;
+        width: auto;
         height: auto;
     }
     .portrait{
         margin: auto;
     }
     nav{
-        flex-direction: column;
+        flex-direction: column; 
     }
     .navigation-items{
         margin-top: 10px;
@@ -147,7 +147,7 @@ div{
     }
     #navigation{
         flex-direction: column;
-        width: 100%;
+        width: auto;
         height: auto;
     }
     .portrait{
