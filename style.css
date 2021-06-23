@@ -5,6 +5,7 @@ body{
     font-family: 'Bungee Hairline', cursive;
     width: auto;
     margin: 0 20px;
+    padding: auto;
     display: flex;
     flex-direction: column;
     background-color: #635C5E;
@@ -96,6 +97,7 @@ div{
         align-items: center;
         text-align: center;
         margin: 0 10px;
+        padding: auto;
     }
     .about-me-container {
         flex-direction: column;
@@ -131,6 +133,7 @@ div{
         align-items: center;
         text-align: center;
         margin: 0 10px;
+        padding: auto;
     }
     .about-me-container {
         flex-direction: column;
