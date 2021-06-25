@@ -164,6 +164,7 @@ div{
     }
     #navigation{
         flex-direction: column;
+        padding: auto;
     }
     .portrait{
         margin: auto;
