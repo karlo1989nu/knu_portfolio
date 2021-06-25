@@ -132,7 +132,7 @@ div{
         margin-top: 10px;
     }
     .navigation-item{
-        margin: auto;
+        margin: 0 30px;
     }
     #projects img {
         max-width: 100%;
@@ -178,7 +178,7 @@ div{
         margin: auto;
     }
     .navigation-item{
-        margin: auto;
+        margin: 0 30px;
     }
     #projects img {
         max-width: 100%;
