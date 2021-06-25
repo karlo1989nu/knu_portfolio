@@ -111,6 +111,8 @@ div{
     }
     .portrait{
         margin: auto;
+        width: 100%;
+        height: auto;
     }
     nav{
         flex-direction: column; 
@@ -149,6 +151,8 @@ div{
     }
     .portrait{
         margin: auto;
+        width: 100%;
+        height: auto;
     }
     nav{
         flex-direction: column;
