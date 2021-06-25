@@ -109,6 +109,9 @@ div{
         text-align: center;
         padding: auto;
     }
+    #logo{
+        padding-bottom: 15px;
+    }
     .about-me-container {
         flex-direction: column;
         align-items: center;
@@ -164,7 +167,6 @@ div{
     }
     #navigation{
         flex-direction: column;
-        padding: auto;
     }
     .portrait{
         margin: auto;
