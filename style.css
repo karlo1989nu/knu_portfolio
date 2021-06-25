@@ -110,7 +110,7 @@ div{
         padding: auto;
     }
     #logo{
-        padding-bottom: 15px;
+        margin-bottom: auto;
     }
     .about-me-container {
         flex-direction: column;
