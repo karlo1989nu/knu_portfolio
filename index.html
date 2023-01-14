@@ -1,179 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KNU Personal Portfolio</title>
-    <link rel="stylesheet" href='./style.css'>
+    <link rel="stylesheet" href='./css/style.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <div>
-            <h2 id='logo'>Karlo Navarro</h2>
+            <h1 id='logo'>Karlo Navarro</h1>
         </div>
         <div id='navigation'>
             <ul class='navigation-items'>
-                <!--<li class='navigation-item'>
-                    <a href='#surprise'>Click here for a surprise!</a>
-                </li>-->
                 <li class='navigation-item'>
-                    <a href='#projects'>Projects</a>
+                    <a href='./index.html'>Home</a>
                 </li>
                 <li class='navigation-item'>
-                    <a href='#skills'>Skills</a>
+                    <a href='./projects.html'>Projects</a>
                 </li>
                 <li class='navigation-item'>
-                    <a href='#contact'>Contact</a>
+                    <a href='./skills.html'>Skills</a>
+                </li>
+                <li class='navigation-item'>
+                    <a href='./contact.html'>Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
     <main>
+        <hr>
         <section id='about-me'>
             <div class='about-me-container'>
                 <div class='about-me-text-container'>
                     <h2>About me</h2>
                     <p>
-                        Hello, I'm Karlo Navarro, I am student of Computer Science at University of the People but also student of the 
-                        Full-Stack Engineer career path at Codecademy and I can tell you that I am learning a lot while I am having so much fun. 
+                        Hello, I'm Karlo Navarro, I am student of Computer Science at University of the People. <br>
+                        I started to study Computer Science back in 2016 and now am planning to pursue a Master's in
+                        Artificial Intelligence and Quantum Computing once I finish my Bachelor's. <br>
+                        In the different sections of this website I want to show you my some of my projects, from the most basic one to the
+                        most advanced. <br>
+                        I hope you enjoy it and feel free to contact through the contact section of this page. 
                     </p>
-                    <p>
-                        I started to study Computer Science back in 2016 as a part-time student but soon I started to take more and more classes in
-                        order to complete faster my Associate degree and I can proudly say that, by the end of 2021, I will be graduating from the Associate degree.
-                        I am planning to continue my career with the Bachelors and I dream to take a Master in Artificial Intelligence and Quantum Computing.
-                    </p>
-                    <p>
-                        At Codecademy I started in 2020 in the middle of the Covid-19 pandemic, I started taking a HTML and soon realized the great methodology they have
-                        and decided to enroll in the full course after asking my step parents to pay me the full year subscription. They did help me and it made me feel very 
-                        motivated to continue to learn programming so I continued with the CSS and Javascript courses to, later, enroll in the Full-Stack career path.
-                    </p>
-                </div> 
-                <div>
-                    <img src="./css/images/knu_portfolio.jpg" atl= "Karlo Navarro picture" class='portrait'>
-                </div>              
+                </div>
+                <div class='portrait'>
+                    <img src="./css/images/knu_portfolio.jpg" atl="Karlo Navarro picture">
+                </div>
             </div>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <details class="project2">
-                <img src="./css/images/sumaku.png">
-                <summary>
-                    <h3>SUMAKU</h3>
-                    <a href="https://sites.google.com/view/sumaku/" target="_blank">SUMAKU</a>
-                    <p>This is my first project to get started in the website creation world I was asked to create a
-                        website using the Google Sites tool, which is a great tool to build excellent websites very fast without
-                        much knowledge.
-                    </p>
-                </summary>
-            </details>
-            <details class="project3">
-                <img src="./css/images/tgce.png">
-                <summary>
-                    <h3>The Grey Color Experience</h3>
-                    <a href="https://karlo1989nu.github.io/thegreycolorexperience/" target="_blank">The Grey Color Experience</a>
-                    <p>This is my second project called The Grey Color Experience. I was provided with a reference
-                        page that and some HMTL and CSS code and I had to work with in order to create a new website and 
-                        get used to some concepts like Flexbox among others.</p>
-                </summary>
-            </details>
-            <details class="project1">
-                <img src="./css/images/knu_pp_summary_pic.png">
-                <summary>
-                    <h3>My personal Portfolio</h3>
-                    <a href="https://karlo1989nu.github.io/knu_portfolio/" target="_blank">KNU Personal Portfolio</a>
-                    <p>This is my third project, my personal portfolio. I built it straight from zero 
-                        using all the knowledge I adquired in the HTML and CSS courses in Codecademy.</p>
-                </summary>
-            </details>
-            <!--
-            <details class="project3">
-                <summary>
-                    <h3>Energías Alternativas CR</h3>
-                    <image></image>
-                    <p></p>
-                </summary>
-            </details>
-            <details class="project3">
-                <summary>
-                    <h3>Bolaños & Patiño Firma Legal</h3>
-                    <image></image>
-                    <p></p>
-                </summary>
-            </details>
-            -->
-        </section>
-        <div id="up">
-            <a href="#logo">UP</a>
-        </div>
-        <section id="skills">
-            <h2>Skills</h2>
-            <details class="skillss">
-                <div class="skillimg">
-                <img src="./css/images/html.png">
-                </div>
-                <summary>
-                    <h3>HTML</h3>
-                </summary>
-            </details>  
-            <details class="skillss">
-                <div class="skillimg">
-                <img src="./css/images/CSS.png">
-                </div>
-                <summary>
-                    <h3>CSS</h3>
-                </summary>
-            </details> 
-            <details class="skillss">
-                <div class="skillimg">
-                <img src="./css/images/JavaScript.png">
-                </div>
-                <summary>
-                    <h3>JavaScript</h3>
-                </summary>
-            </details> 
-            <details class="skillss">
-                <div class="skillimg">
-                <img src="./css/images/SQL.png">
-                </div>  
-                <summary>
-                    <h3>SQL</h3>
-                </summary>
-            </details> 
-            <details class="skillss">
-                <div class="skillimg">
-                <img src="./css/images/Git.png">
-                </div>  
-                <summary>
-                    <h3>Git</h3>
-                </summary>
-            </details> 
-        </section>
-        <div id="up">
-            <a href="#logo">UP</a>
-        </div>
-        <section id="contact">
-            <h2>Contact</h2>
-            <details>
-                <div id="contatl">
-                    <ul class="contactli">
-                        <li class="contactlit">
-                            <a href="https://www.linkedin.com/in/karlo1989nu/" target= "_blank">LinkedIn</a>
-                        </li>
-                        <li class="contactli">
-                            <a href="mailto:karlo1989nu@gmail.com">Email</a>
-                        </li>
-                        <li class="contactlit">
-                            <a href="https://twitter.com/karlo1989nu" target= "_blank">Twitter</a>
-                        </li>
-                    </ul>
-                </div>
-            </details>
-        </section>
-        <div id="up">
-            <a href="#logo">UP</a>
-        </div>
+        <hr>
+        <footer>
+            This website was developed by Karlo Navarro, all rights reserved for the developer.
+        </footer>
     </main>
 </body>
