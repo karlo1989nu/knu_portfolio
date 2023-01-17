@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bungee Hairline', cursive;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5E0680;
+    color: #14CC7C;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+    margin-bottom: 40px;
+}
+
+#logo {
+    margin: 0;
+    font-family: 'Bungee Hairline';
+    border: #CC8C00 solid 2px;
+    border-radius: 15%;
+}
+
+#navigation {
+    margin-left: auto;
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: auto;
+}
+
+.navigation-item {
+    margin: 15px;
+}
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid #CC8C00;
+    border-radius: 15%;
+}
+
+a:-webkit-any-link {
+    color: #14CC7C;
+    cursor: pointer;
+}
+
+section {
+    display: block;
+    padding: var(--spacing-3) 0;
+}
+
+.about-me-container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.about-me-text-container {
+    width: 50%;
+    float: left;
+
+}
+
+div {
+    display: block;
+}
+
+.portrait {
+    width: 50%;
+    float: right;
+    flex-shrink: 0;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: #CC8C00 solid 2px;
+    border-radius: 10%;
+}
+
+#up {
+    margin-left: auto;
+    border: 0px solid #B0A4A6;
+    border-radius: 15%;
+    width: 30px;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contactli {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 30px;
+}
+
+#projects img {
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.skillss div {
+    display: flex;
+    justify-content: center;
+}
+
+.rights {
+    width: 50%;
+    float: left;
+}
+
+@media only screen and (max-width: 860px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+        align-items: center;
+        text-align: center;
+        padding: auto;
+    }
+
+    #logo {
+        margin-bottom: auto;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    #navigation {
+        flex-direction: column;
+    }
+
+    .portrait {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .navigation-items {
+        margin-top: 10px;
+    }
+
+    .navigation-item {
+        margin: 0 30px;
+    }
+
+    #projects img {
+        max-width: 100%;
+        height: auto;
+        object-position: center;
+    }
+
+    .contactli {
+        margin: auto;
+    }
+
+    #skills img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+        align-items: center;
+        text-align: center;
+        padding: auto;
+    }
+
+    #logo {
+        margin-bottom: auto;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    #navigation {
+        flex-direction: column;
+    }
+
+    .portrait {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .navigation-items {
+        margin-top: 10px;
+        margin: auto;
+    }
+
+    .navigation-item {
+        margin: 0 30px;
+    }
+
+    #projects img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .contactli {
+        margin: auto;
+    }
+
+    #skills img {
+        max-width: 100%;
+        height: auto;
+    }
+}
